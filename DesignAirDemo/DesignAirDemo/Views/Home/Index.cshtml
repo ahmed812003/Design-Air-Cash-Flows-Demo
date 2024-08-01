@@ -1,0 +1,151 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model DashboardData
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (!SignInManager.IsSignedIn(User))
+{
+    <div class="container text-center mt-5">
+        <h1 class="display-4 mb-3">Welcome To Design Air</h1>
+        <img src="~/images/Picture1.jpg" alt="logo" class="img-fluid mb-4" />
+    </div>
+}
+else
+{
+    <style>
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar .nav-item {
+            margin: 10px 0;
+        }
+        .sidebar .nav-link {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s;
+            text-align:center;
+        }
+        .sidebar .nav-link:hover {
+            background-color: #e9ecef;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content .card {
+            margin: 10px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align:center;
+        }
+
+        .nav-link.active {
+            color: #007bff;
+        }
+    </style>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 style="color:#007bff; text-align:center">Dashboard</h5>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Projects" asp-action="All" style="position:center">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Clients" asp-action="All">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Contractors" asp-action="All">Contractors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Suppliers" asp-action="All">Suppliers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Archive" asp-action="All">Archive</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2" style="color:#007bff;">Dashboard Overview</h1>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">Projects</h5>
+                                <h6 class="card-text">Total: @Model.Projects</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">Clients</h5>
+                                <h6 class="card-text">Total: @Model.Clients</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">Contractors</h5>
+                                <h6 class="card-text">Total: @Model.Contractors</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">Suppliers</h5>
+                                <h6 class="card-text">Total: @Model.Suppliers</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">Operations</h5>
+                                <h6 class="card-text">Total: @Model.Operations</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">Images</h5>
+                                <h6 class="card-text">Total: @Model.Images</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#007bff;">PDFs</h5>
+                                <h6 class="card-text">Total: @Model.Pdfs</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+}
+
+

@@ -1,0 +1,25 @@
+﻿@model List<GetClientDto>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Current Debit Balance</th>
+            <th scope="col">Current Credit Balance</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in Model)
+        {
+            <tr>
+                <td>@client.Name</td>
+                <td>@client.CurrentDebitBalance</td>
+                <td>@client.CurrentCreditBalance</td>
+                <td>@client.TotalDebitBalance</td>
+                <td>@client.TotalCreditBalance</td>
+            </tr>
+        }
+    </tbody>
+</table>

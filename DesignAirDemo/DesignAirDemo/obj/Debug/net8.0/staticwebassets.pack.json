@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DesignAirDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DesignAirDemo.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\0682fa70-3dff-47bd-87da-ff1c3ffee6e7.png",
+      "PackagePath": "staticwebassets\\Images\\0682fa70-3dff-47bd-87da-ff1c3ffee6e7.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\0873371a-98b3-4b66-baf7-0830fd3f49c0.png",
+      "PackagePath": "staticwebassets\\Images\\0873371a-98b3-4b66-baf7-0830fd3f49c0.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\09b435a6-b5bd-4ddb-a777-7fd2b74b9ebd.png",
+      "PackagePath": "staticwebassets\\Images\\09b435a6-b5bd-4ddb-a777-7fd2b74b9ebd.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\09f7fb40-6d01-4e19-ab2e-a3fe165f5a70.png",
+      "PackagePath": "staticwebassets\\Images\\09f7fb40-6d01-4e19-ab2e-a3fe165f5a70.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\0d773d76-0000-4221-8340-4ee9f7fe1158.png",
+      "PackagePath": "staticwebassets\\Images\\0d773d76-0000-4221-8340-4ee9f7fe1158.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\0e7ecb18-6680-4ec5-86ee-cee4a8caed70.png",
+      "PackagePath": "staticwebassets\\Images\\0e7ecb18-6680-4ec5-86ee-cee4a8caed70.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\1805b81e-0752-4fc3-8a81-3b710aeae6f5.png",
+      "PackagePath": "staticwebassets\\Images\\1805b81e-0752-4fc3-8a81-3b710aeae6f5.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\23fc4b01-14ea-4cbc-bbe9-dd7061f26ada.png",
+      "PackagePath": "staticwebassets\\Images\\23fc4b01-14ea-4cbc-bbe9-dd7061f26ada.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\37bbb2a3-ee78-44e4-a166-f6c9e636fd7e.png",
+      "PackagePath": "staticwebassets\\Images\\37bbb2a3-ee78-44e4-a166-f6c9e636fd7e.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\64ba8a9e-d20c-4e87-8f31-76b8b241aa7b.png",
+      "PackagePath": "staticwebassets\\Images\\64ba8a9e-d20c-4e87-8f31-76b8b241aa7b.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\6c58587c-555f-4cff-85de-518addbf6756.png",
+      "PackagePath": "staticwebassets\\Images\\6c58587c-555f-4cff-85de-518addbf6756.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\7dee64d5-3196-4090-aa36-155982c79663.png",
+      "PackagePath": "staticwebassets\\Images\\7dee64d5-3196-4090-aa36-155982c79663.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\8169dabb-cc27-4f63-b1f6-c608e8de2c5e.png",
+      "PackagePath": "staticwebassets\\Images\\8169dabb-cc27-4f63-b1f6-c608e8de2c5e.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\Picture1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Picture1.jpg"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\b4843d35-ea54-424e-b8f3-fd919520cfb2.png",
+      "PackagePath": "staticwebassets\\Images\\b4843d35-ea54-424e-b8f3-fd919520cfb2.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\b4b86d81-5dd8-48d0-a977-1c8a1a1eb79a.png",
+      "PackagePath": "staticwebassets\\Images\\b4b86d81-5dd8-48d0-a977-1c8a1a1eb79a.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\c2229ec9-80e1-4c51-b266-ef615287eed1.png",
+      "PackagePath": "staticwebassets\\Images\\c2229ec9-80e1-4c51-b266-ef615287eed1.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\d50e4441-346b-4cfa-bd1b-d6f44f351a98.png",
+      "PackagePath": "staticwebassets\\Images\\d50e4441-346b-4cfa-bd1b-d6f44f351a98.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\e25e0ced-af1c-439f-8a15-8bd562208157.png",
+      "PackagePath": "staticwebassets\\Images\\e25e0ced-af1c-439f-8a15-8bd562208157.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\e7fb19a7-a6d7-4a05-bb4a-797f933cf546.png",
+      "PackagePath": "staticwebassets\\Images\\e7fb19a7-a6d7-4a05-bb4a-797f933cf546.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\ea1eeb18-e2ec-49f4-b34d-debaa6b0a3e6.png",
+      "PackagePath": "staticwebassets\\Images\\ea1eeb18-e2ec-49f4-b34d-debaa6b0a3e6.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\Images\\f5150b8c-f852-47d6-b944-5e88da42fae6.png",
+      "PackagePath": "staticwebassets\\Images\\f5150b8c-f852-47d6-b944-5e88da42fae6.png"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Software Engineering\\Projects\\DesignAir Group\\DesignAirDemo\\DesignAirDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DesignAirDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DesignAirDemo.props",
+      "PackagePath": "build\\DesignAirDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DesignAirDemo.props",
+      "PackagePath": "buildMultiTargeting\\DesignAirDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DesignAirDemo.props",
+      "PackagePath": "buildTransitive\\DesignAirDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

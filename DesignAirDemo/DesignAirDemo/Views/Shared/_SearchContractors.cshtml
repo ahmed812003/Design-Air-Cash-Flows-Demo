@@ -1,0 +1,31 @@
+﻿@model List<GetContractorDto>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Current Debit Balance</th>
+            <th scope="col">Current Credit Balance</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+            <th scope="col">Add To Project</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contractour in Model)
+        {
+            <tr>
+                <td>@contractour.Name</td>
+                <td>@contractour.CurrentDebitBalance</td>
+                <td>@contractour.CurrentCreditBalance</td>
+                <td>@contractour.TotalDebitBalance</td>
+                <td>@contractour.TotalCreditBalance</td>
+                <td>
+                    <a asp-controller="Projects" asp-action="AddToProject" asp-route-id="@contractour.Id" asp-route-type="Contractors" class="btn btn-sm btn-success">
+                        <i>Add To Project</i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

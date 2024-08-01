@@ -1,0 +1,100 @@
+﻿
+@model List<GetContractorDto>
+
+@{
+    ViewData["Title"] = "Contractors";
+}
+
+
+<div class="row pt-4" style="margin-bottom: 2%">
+    <div class="col-6">
+        <h2 class="text-primary">Contractors View</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-controller="Contractors" asp-action="Add" class="btn btn-primary">
+            <i class="bi bi-plus"></i> &nbsp; Add New Contractor
+        </a>
+    </div>
+</div>
+
+
+
+<hr />
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <input type="text" class="form-control" id="searchTerm" placeholder="Search for contractor..." />
+        </div>
+        <div class="col-md-2">
+            <button id="searchButton" class="btn btn-primary w-100">Search</button>
+        </div>
+        <div class="col-md-2">
+            <button id="clear" class="btn btn-secondary  btn-danger w-100">Clear</button>
+        </div>
+    </div>
+    <br />
+    <div id="results" class="mt-3"></div>
+    <br />
+</div>
+
+<hr />
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Current Debit Balance</th>
+            <th scope="col">Current Credit Balance</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+            <th scope="col">Add To Project</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contractour in Model)
+        {
+            <tr>
+                <td>@contractour.Name</td>
+                <td>@contractour.CurrentDebitBalance</td>
+                <td>@contractour.CurrentCreditBalance</td>
+                <td>@contractour.TotalDebitBalance</td>
+                <td>@contractour.TotalCreditBalance</td>
+                <td>
+                    <a asp-controller="Projects" asp-action="AddToProject" asp-route-id="@contractour.Id" asp-route-type = "Contractors" class="btn btn-sm btn-success">
+                        <i>Add To Project</i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" asp-controller="Home" class="btn btn-primary" style="width:150px">
+    back to Home
+</a>
+
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#searchButton').click(function () {
+                var searchTerm = $('#searchTerm').val();
+                $.ajax({
+                    url: '@Url.Action("Search", "Contractors")',
+                    type: 'GET',
+                    data: { Name: searchTerm },
+                    success: function (data) {
+                        document.getElementById("results").innerHTML = data;
+                    },
+                });
+            });
+        });
+        $('#clear').click(function () {
+            document.getElementById("results").innerHTML = "";
+            $('#searchTerm').val("")
+        });
+    </script>
+}

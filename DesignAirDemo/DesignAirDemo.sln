@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignAirDemo", "DesignAirDemo\DesignAirDemo.csproj", "{2611E332-7AB1-44FF-BC37-A995557457BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2611E332-7AB1-44FF-BC37-A995557457BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2611E332-7AB1-44FF-BC37-A995557457BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2611E332-7AB1-44FF-BC37-A995557457BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2611E332-7AB1-44FF-BC37-A995557457BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79248712-28EF-42C6-B984-3EE0A27A8DFF}
+	EndGlobalSection
+EndGlobal

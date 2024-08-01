@@ -1,0 +1,1357 @@
+2024-07-11 17:03:07.685 +03:00 [INF] User profile is available. Using 'C:\Users\AHMD YASSER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-11 17:03:07.973 +03:00 [INF] Now listening on: https://localhost:7182
+2024-07-11 17:03:07.973 +03:00 [INF] Now listening on: http://localhost:5143
+2024-07-11 17:03:07.975 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-11 17:03:07.975 +03:00 [INF] Hosting environment: Development
+2024-07-11 17:03:07.975 +03:00 [INF] Content root path: E:\Software Engineering\Projects\DesignAir Group\DesignAirDemo\DesignAirDemo
+2024-07-11 17:03:15.601 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 17:03:15.840 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 17:03:15.857 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Operation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.373 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.374 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:16.374 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:03:17.727 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 17:03:17.781 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 17:03:17.865 +03:00 [INF] Executed ViewResult - view Index executed in 84.2463ms.
+2024-07-11 17:03:17.868 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 2011.0441ms
+2024-07-11 17:03:17.869 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 17:03:17.871 +03:00 [INF] HTTP GET / responded 200 in 2034.3775 ms
+2024-07-11 17:03:17.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 2288.8343ms
+2024-07-11 17:03:17.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:03:17.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.2053ms
+2024-07-11 17:03:17.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:03:17.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.7558ms
+2024-07-11 17:19:49.653 +03:00 [INF] User profile is available. Using 'C:\Users\AHMD YASSER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-11 17:19:49.938 +03:00 [INF] Now listening on: https://localhost:7182
+2024-07-11 17:19:49.938 +03:00 [INF] Now listening on: http://localhost:5143
+2024-07-11 17:19:49.942 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-11 17:19:49.944 +03:00 [INF] Hosting environment: Development
+2024-07-11 17:19:49.944 +03:00 [INF] Content root path: E:\Software Engineering\Projects\DesignAir Group\DesignAirDemo\DesignAirDemo
+2024-07-11 17:19:50.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 17:19:50.702 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 17:19:50.726 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 17:19:51.379 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Operation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:51.380 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 17:19:52.870 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 17:19:52.924 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 17:19:53.005 +03:00 [INF] Executed ViewResult - view Index executed in 82.2977ms.
+2024-07-11 17:19:53.006 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 2279.6431ms
+2024-07-11 17:19:53.006 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 17:19:53.007 +03:00 [INF] HTTP GET / responded 200 in 2308.7135 ms
+2024-07-11 17:19:53.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 2450.5617ms
+2024-07-11 17:19:53.144 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:19:53.144 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:19:53.173 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 29.2026ms
+2024-07-11 17:19:53.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 495.9433ms
+2024-07-11 17:19:55.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Identity/Account/Login - null null
+2024-07-11 17:19:55.282 +03:00 [INF] Executing endpoint '/Account/Login'
+2024-07-11 17:19:55.294 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-07-11 17:19:55.311 +03:00 [INF] Executing handler method DesignAirDemo.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-07-11 17:19:55.316 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-07-11 17:19:55.317 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-07-11 17:19:55.318 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-07-11 17:19:55.319 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-07-11 17:19:55.371 +03:00 [INF] Executed page /Account/Login in 77.2724ms
+2024-07-11 17:19:55.372 +03:00 [INF] Executed endpoint '/Account/Login'
+2024-07-11 17:19:55.372 +03:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 90.5673 ms
+2024-07-11 17:19:55.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Identity/Account/Login - 200 null text/html; charset=utf-8 97.4354ms
+2024-07-11 17:19:55.407 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:19:55.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.789ms
+2024-07-11 17:19:55.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:19:55.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5968ms
+2024-07-11 17:20:01.504 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7182/Identity/Account/Login - application/x-www-form-urlencoded 268
+2024-07-11 17:20:01.511 +03:00 [INF] Executing endpoint '/Account/Login'
+2024-07-11 17:20:01.511 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-07-11 17:20:01.527 +03:00 [INF] Executing handler method DesignAirDemo.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-07-11 17:20:01.619 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-11 17:20:01.784 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-07-11 17:20:01.791 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-07-11 17:20:01.792 +03:00 [INF] User logged in.
+2024-07-11 17:20:01.793 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-07-11 17:20:01.794 +03:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-07-11 17:20:01.794 +03:00 [INF] Executed page /Account/Login in 282.6791ms
+2024-07-11 17:20:01.794 +03:00 [INF] Executed endpoint '/Account/Login'
+2024-07-11 17:20:01.794 +03:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 283.2261 ms
+2024-07-11 17:20:01.794 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7182/Identity/Account/Login - 302 0 null 290.5254ms
+2024-07-11 17:20:01.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 17:20:01.805 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 17:20:01.806 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 17:20:01.851 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 17:20:01.851 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 17:20:01.860 +03:00 [INF] Executed ViewResult - view Index executed in 8.2457ms.
+2024-07-11 17:20:01.861 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 55.4877ms
+2024-07-11 17:20:01.861 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 17:20:01.861 +03:00 [INF] HTTP GET / responded 200 in 55.8096 ms
+2024-07-11 17:20:01.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 60.9114ms
+2024-07-11 17:20:01.898 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:20:01.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:20:01.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.609ms
+2024-07-11 17:20:01.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3904ms
+2024-07-11 17:20:03.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/All - null null
+2024-07-11 17:20:03.888 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 17:20:03.891 +03:00 [INF] Route matched with {action = "All", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:20:03.899 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+2024-07-11 17:20:03.907 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 17:20:03.914 +03:00 [INF] Executed ViewResult - view All executed in 7.265ms.
+2024-07-11 17:20:03.914 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo) in 23.1777ms
+2024-07-11 17:20:03.914 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 17:20:03.915 +03:00 [INF] HTTP GET /Archive/All responded 200 in 26.1945 ms
+2024-07-11 17:20:03.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/All - 200 null text/html; charset=utf-8 29.3653ms
+2024-07-11 17:20:03.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:20:03.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:20:03.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.1696ms
+2024-07-11 17:20:03.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3099ms
+2024-07-11 17:20:35.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/All - null null
+2024-07-11 17:20:35.159 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 17:20:35.161 +03:00 [INF] Route matched with {action = "All", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:20:35.163 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+2024-07-11 17:20:35.165 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 17:20:35.178 +03:00 [INF] Executed ViewResult - view All executed in 14.1487ms.
+2024-07-11 17:20:35.178 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo) in 17.4125ms
+2024-07-11 17:20:35.178 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 17:20:35.178 +03:00 [INF] HTTP GET /Archive/All responded 200 in 19.5826 ms
+2024-07-11 17:20:35.182 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/All - 200 null text/html; charset=utf-8 27.147ms
+2024-07-11 17:20:35.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:20:35.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.0054ms
+2024-07-11 17:20:35.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:20:35.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.6524ms
+2024-07-11 17:20:43.117 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/All - null null
+2024-07-11 17:20:43.119 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 17:20:43.122 +03:00 [INF] Route matched with {action = "All", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:20:43.123 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+2024-07-11 17:20:43.125 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 17:20:43.139 +03:00 [INF] Executed ViewResult - view All executed in 15.1138ms.
+2024-07-11 17:20:43.140 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo) in 18.1747ms
+2024-07-11 17:20:43.140 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 17:20:43.140 +03:00 [INF] HTTP GET /Archive/All responded 200 in 21.0070 ms
+2024-07-11 17:20:43.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/All - 200 null text/html; charset=utf-8 23.0588ms
+2024-07-11 17:20:43.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 17:20:43.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.5991ms
+2024-07-11 17:20:43.210 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 17:20:43.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.4702ms
+2024-07-11 17:20:47.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Download/27c73dc0-5a8f-4e45-a99d-6b29fd6a2b57 - null null
+2024-07-11 17:20:47.209 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 17:20:47.212 +03:00 [INF] Route matched with {action = "Download", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:20:47.236 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-07-11 17:20:47.239 +03:00 [INF] Executing FileStreamResult, sending file with download name 'شيك محفظه رقم64201408812197 بنك الامارات دبي الوطني  حق 29/5/2024.png' ...
+2024-07-11 17:20:47.246 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo) in 34.2323ms
+2024-07-11 17:20:47.246 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 17:20:47.246 +03:00 [INF] HTTP GET /Archive/Download/27c73dc0-5a8f-4e45-a99d-6b29fd6a2b57 responded 200 in 37.1721 ms
+2024-07-11 17:20:47.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Download/27c73dc0-5a8f-4e45-a99d-6b29fd6a2b57 - 200 9463 application/octet-stream 40.4439ms
+2024-07-11 17:20:49.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Download/a8679263-5f31-48ce-986f-e7527c50ba19 - null null
+2024-07-11 17:20:49.562 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 17:20:49.562 +03:00 [INF] Route matched with {action = "Download", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:20:49.567 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-07-11 17:20:49.568 +03:00 [INF] Executing FileStreamResult, sending file with download name 'gr.pdf' ...
+2024-07-11 17:20:49.570 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo) in 7.1046ms
+2024-07-11 17:20:49.570 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 17:20:49.570 +03:00 [INF] HTTP GET /Archive/Download/a8679263-5f31-48ce-986f-e7527c50ba19 responded 200 in 7.2982 ms
+2024-07-11 17:20:49.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Download/a8679263-5f31-48ce-986f-e7527c50ba19 - 200 58211 application/octet-stream 9.7882ms
+2024-07-11 17:21:03.442 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Search?Name=g - null null
+2024-07-11 17:21:03.442 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Search (DesignAirDemo)'
+2024-07-11 17:21:03.445 +03:00 [INF] Route matched with {action = "Search", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String) on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:21:03.458 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__Name_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+WHERE [a].[Description] LIKE @__Name_0_contains ESCAPE N'\'
+2024-07-11 17:21:03.460 +03:00 [INF] Executing PartialViewResult, running view _SearchArchive.
+2024-07-11 17:21:03.466 +03:00 [INF] Executed PartialViewResult - view _SearchArchive executed in 6.277ms.
+2024-07-11 17:21:03.466 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Search (DesignAirDemo) in 20.928ms
+2024-07-11 17:21:03.466 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Search (DesignAirDemo)'
+2024-07-11 17:21:03.466 +03:00 [INF] HTTP GET /Archive/Search responded 200 in 23.1466 ms
+2024-07-11 17:21:03.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Search?Name=g - 200 null text/html; charset=utf-8 23.7477ms
+2024-07-11 17:21:09.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Search?Name=%D8%B4 - null null
+2024-07-11 17:21:09.722 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Search (DesignAirDemo)'
+2024-07-11 17:21:09.722 +03:00 [INF] Route matched with {action = "Search", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String) on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 17:21:09.726 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Name_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+WHERE [a].[Description] LIKE @__Name_0_contains ESCAPE N'\'
+2024-07-11 17:21:09.727 +03:00 [INF] Executing PartialViewResult, running view _SearchArchive.
+2024-07-11 17:21:09.727 +03:00 [INF] Executed PartialViewResult - view _SearchArchive executed in 0.283ms.
+2024-07-11 17:21:09.727 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Search (DesignAirDemo) in 4.8766ms
+2024-07-11 17:21:09.727 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Search (DesignAirDemo)'
+2024-07-11 17:21:09.727 +03:00 [INF] HTTP GET /Archive/Search responded 200 in 5.1532 ms
+2024-07-11 17:21:09.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Search?Name=%D8%B4 - 200 null text/html; charset=utf-8 5.8289ms
+2024-07-11 21:54:52.341 +03:00 [INF] User profile is available. Using 'C:\Users\AHMD YASSER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-11 21:54:52.749 +03:00 [INF] Now listening on: https://localhost:7182
+2024-07-11 21:54:52.750 +03:00 [INF] Now listening on: http://localhost:5143
+2024-07-11 21:54:52.752 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-11 21:54:52.752 +03:00 [INF] Hosting environment: Development
+2024-07-11 21:54:52.753 +03:00 [INF] Content root path: E:\Software Engineering\Projects\DesignAir Group\DesignAirDemo\DesignAirDemo
+2024-07-11 21:54:55.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 21:54:56.063 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 21:54:56.089 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 21:54:56.864 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.864 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.864 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.864 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.864 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Operation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.864 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.865 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.865 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:56.865 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-11 21:54:58.937 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 21:54:58.989 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 21:54:59.075 +03:00 [INF] Executed ViewResult - view Index executed in 87.8494ms.
+2024-07-11 21:54:59.077 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 2986.8903ms
+2024-07-11 21:54:59.077 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 21:54:59.078 +03:00 [INF] HTTP GET / responded 200 in 3018.1302 ms
+2024-07-11 21:54:59.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 3163.8376ms
+2024-07-11 21:54:59.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:54:59.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:54:59.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.8795ms
+2024-07-11 21:54:59.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.38ms
+2024-07-11 21:55:38.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Identity/Account/Login - null null
+2024-07-11 21:55:39.040 +03:00 [INF] Executing endpoint '/Account/Login'
+2024-07-11 21:55:39.062 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-07-11 21:55:39.085 +03:00 [INF] Executing handler method DesignAirDemo.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-07-11 21:55:39.093 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-07-11 21:55:39.095 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-07-11 21:55:39.098 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-07-11 21:55:39.098 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-07-11 21:55:39.165 +03:00 [INF] Executed page /Account/Login in 102.7359ms
+2024-07-11 21:55:39.166 +03:00 [INF] Executed endpoint '/Account/Login'
+2024-07-11 21:55:39.167 +03:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 127.6774 ms
+2024-07-11 21:55:39.168 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Identity/Account/Login - 200 null text/html; charset=utf-8 174.2237ms
+2024-07-11 21:55:39.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:55:39.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.5597ms
+2024-07-11 21:55:39.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:55:39.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.9121ms
+2024-07-11 21:55:45.596 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7182/Identity/Account/Login - application/x-www-form-urlencoded 268
+2024-07-11 21:55:45.603 +03:00 [INF] Executing endpoint '/Account/Login'
+2024-07-11 21:55:45.604 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-07-11 21:55:45.622 +03:00 [INF] Executing handler method DesignAirDemo.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-07-11 21:55:45.802 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-11 21:55:46.041 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-07-11 21:55:46.049 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-07-11 21:55:46.050 +03:00 [INF] User logged in.
+2024-07-11 21:55:46.052 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-07-11 21:55:46.053 +03:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-07-11 21:55:46.053 +03:00 [INF] Executed page /Account/Login in 449.4808ms
+2024-07-11 21:55:46.053 +03:00 [INF] Executed endpoint '/Account/Login'
+2024-07-11 21:55:46.053 +03:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 450.0264 ms
+2024-07-11 21:55:46.053 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7182/Identity/Account/Login - 302 0 null 457.401ms
+2024-07-11 21:55:46.060 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 21:55:46.065 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 21:55:46.065 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 21:55:46.111 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 21:55:46.111 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 21:55:46.119 +03:00 [INF] Executed ViewResult - view Index executed in 8.0066ms.
+2024-07-11 21:55:46.120 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 55.5036ms
+2024-07-11 21:55:46.120 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 21:55:46.121 +03:00 [INF] HTTP GET / responded 200 in 55.8452 ms
+2024-07-11 21:55:46.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 61.0048ms
+2024-07-11 21:55:46.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:55:46.170 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.4436ms
+2024-07-11 21:55:46.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:55:46.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.1013ms
+2024-07-11 21:56:24.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 21:56:24.956 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:56:24.961 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 21:56:24.970 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 21:56:24.995 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 21:56:25.005 +03:00 [INF] Executed ViewResult - view All executed in 10.5505ms.
+2024-07-11 21:56:25.008 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 44.0397ms
+2024-07-11 21:56:25.008 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:56:25.008 +03:00 [INF] HTTP GET /Projects/All responded 200 in 51.7506 ms
+2024-07-11 21:56:25.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 59.0336ms
+2024-07-11 21:56:25.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:56:25.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.8714ms
+2024-07-11 21:56:25.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:56:25.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.9029ms
+2024-07-11 21:56:27.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/Add - null null
+2024-07-11 21:56:27.661 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.Add (DesignAirDemo)'
+2024-07-11 21:56:27.663 +03:00 [INF] Route matched with {action = "Add", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 21:56:27.686 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+2024-07-11 21:56:27.733 +03:00 [INF] Executing ViewResult, running view Add.
+2024-07-11 21:56:27.766 +03:00 [INF] Executed ViewResult - view Add executed in 33.2029ms.
+2024-07-11 21:56:27.766 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.Add (DesignAirDemo) in 103.1311ms
+2024-07-11 21:56:27.766 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.Add (DesignAirDemo)'
+2024-07-11 21:56:27.766 +03:00 [INF] HTTP GET /Projects/Add responded 200 in 105.3399 ms
+2024-07-11 21:56:27.767 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/Add - 200 null text/html; charset=utf-8 110.2785ms
+2024-07-11 21:56:27.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:56:27.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.8388ms
+2024-07-11 21:56:27.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:56:27.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0403ms
+2024-07-11 21:56:36.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 21:56:36.630 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:56:36.630 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 21:56:36.632 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 21:56:36.633 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 21:56:36.635 +03:00 [INF] Executed ViewResult - view All executed in 2.1411ms.
+2024-07-11 21:56:36.635 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 5.3842ms
+2024-07-11 21:56:36.635 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:56:36.635 +03:00 [INF] HTTP GET /Projects/All responded 200 in 5.6416 ms
+2024-07-11 21:56:36.635 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 8.3253ms
+2024-07-11 21:56:36.677 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:56:36.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:56:36.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 26.526ms
+2024-07-11 21:56:36.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.0579ms
+2024-07-11 21:56:44.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/Search?Name=%D9%81 - null null
+2024-07-11 21:56:44.524 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.Search (DesignAirDemo)'
+2024-07-11 21:56:44.527 +03:00 [INF] Route matched with {action = "Search", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String) on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 21:56:44.543 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Name_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Name] LIKE @__Name_0_contains ESCAPE N'\'
+2024-07-11 21:56:44.545 +03:00 [INF] Executing PartialViewResult, running view _SearchProjects.
+2024-07-11 21:56:44.549 +03:00 [INF] Executed PartialViewResult - view _SearchProjects executed in 5.0101ms.
+2024-07-11 21:56:44.550 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.Search (DesignAirDemo) in 22.3963ms
+2024-07-11 21:56:44.550 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.Search (DesignAirDemo)'
+2024-07-11 21:56:44.550 +03:00 [INF] HTTP GET /Projects/Search responded 200 in 25.3767 ms
+2024-07-11 21:56:44.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/Search?Name=%D9%81 - 200 null text/html; charset=utf-8 26.0139ms
+2024-07-11 21:57:18.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 21:57:18.416 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:57:18.420 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:57:18.487 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 21:57:18.971 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 21:57:18.982 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 21:57:18.994 +03:00 [INF] Executed ViewResult - view GetOperations executed in 12.7458ms.
+2024-07-11 21:57:18.997 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 577.5417ms
+2024-07-11 21:57:18.997 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:57:18.998 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 580.8089 ms
+2024-07-11 21:57:18.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 586.8165ms
+2024-07-11 21:57:19.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:57:19.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.5032ms
+2024-07-11 21:57:19.069 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:57:19.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.1824ms
+2024-07-11 21:57:35.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 21:57:35.268 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:57:35.269 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 21:57:35.271 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 21:57:35.272 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 21:57:35.273 +03:00 [INF] Executed ViewResult - view All executed in 1.2495ms.
+2024-07-11 21:57:35.273 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 4.6387ms
+2024-07-11 21:57:35.273 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:57:35.273 +03:00 [INF] HTTP GET /Projects/All responded 200 in 4.9082 ms
+2024-07-11 21:57:35.274 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 7.7537ms
+2024-07-11 21:57:35.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:57:35.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:57:35.328 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.4545ms
+2024-07-11 21:57:35.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.8874ms
+2024-07-11 21:58:48.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 21:58:48.409 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:58:48.409 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:58:48.415 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 21:58:48.418 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 21:58:48.418 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 21:58:48.421 +03:00 [INF] Executed ViewResult - view GetOperations executed in 2.3679ms.
+2024-07-11 21:58:48.422 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 12.4803ms
+2024-07-11 21:58:48.425 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:58:48.427 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 16.2064 ms
+2024-07-11 21:58:48.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 26.2567ms
+2024-07-11 21:58:48.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:58:48.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:58:48.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.6341ms
+2024-07-11 21:58:48.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.7021ms
+2024-07-11 21:59:02.105 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&type=Clients - null null
+2024-07-11 21:59:02.107 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 21:59:02.110 +03:00 [INF] Route matched with {action = "AddOperation", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOperation(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:59:02.120 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-07-11 21:59:02.122 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 21:59:02.132 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Name], [o].[Sign]
+FROM [OperationTypes] AS [o]
+2024-07-11 21:59:02.138 +03:00 [INF] Executing ViewResult, running view AddOperation.
+2024-07-11 21:59:02.168 +03:00 [INF] Executed ViewResult - view AddOperation executed in 30.5177ms.
+2024-07-11 21:59:02.169 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo) in 58.181ms
+2024-07-11 21:59:02.169 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 21:59:02.169 +03:00 [INF] HTTP GET /Operations/AddOperation responded 200 in 61.3095 ms
+2024-07-11 21:59:02.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&type=Clients - 200 null text/html; charset=utf-8 63.4256ms
+2024-07-11 21:59:02.222 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:02.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.8948ms
+2024-07-11 21:59:02.235 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:02.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5275ms
+2024-07-11 21:59:12.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 21:59:12.712 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:59:12.712 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:59:12.717 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 21:59:12.719 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 21:59:12.719 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 21:59:12.721 +03:00 [INF] Executed ViewResult - view GetOperations executed in 1.948ms.
+2024-07-11 21:59:12.721 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 9.5645ms
+2024-07-11 21:59:12.721 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:59:12.722 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 9.7720 ms
+2024-07-11 21:59:12.722 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 11.6403ms
+2024-07-11 21:59:12.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:12.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:12.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.2576ms
+2024-07-11 21:59:12.787 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.2625ms
+2024-07-11 21:59:17.997 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/DownloadImage/eb1edaaa-8ea4-4914-b73b-05c320cd0a7e - null null
+2024-07-11 21:59:17.999 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.DownloadImage (DesignAirDemo)'
+2024-07-11 21:59:18.002 +03:00 [INF] Route matched with {action = "DownloadImage", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadImage(System.String) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:59:18.009 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM [Operations] AS [o]
+WHERE [o].[Id] = @__p_0
+2024-07-11 21:59:18.037 +03:00 [INF] Executing FileStreamResult, sending file with download name 'تحصيلات نقدية بمعرفة م/ احمد عبد الرحيم.png' ...
+2024-07-11 21:59:18.048 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.DownloadImage (DesignAirDemo) in 45.7259ms
+2024-07-11 21:59:18.048 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.DownloadImage (DesignAirDemo)'
+2024-07-11 21:59:18.048 +03:00 [INF] HTTP GET /Operations/DownloadImage/eb1edaaa-8ea4-4914-b73b-05c320cd0a7e responded 200 in 49.5132 ms
+2024-07-11 21:59:18.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/DownloadImage/eb1edaaa-8ea4-4914-b73b-05c320cd0a7e - 200 9463 application/octet-stream 51.3501ms
+2024-07-11 21:59:26.673 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 21:59:26.677 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:59:26.677 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 21:59:26.679 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 21:59:26.680 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 21:59:26.681 +03:00 [INF] Executed ViewResult - view All executed in 1.1527ms.
+2024-07-11 21:59:26.681 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 3.6174ms
+2024-07-11 21:59:26.681 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 21:59:26.681 +03:00 [INF] HTTP GET /Projects/All responded 200 in 3.8287 ms
+2024-07-11 21:59:26.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 8.5386ms
+2024-07-11 21:59:26.725 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:26.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:26.740 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.6236ms
+2024-07-11 21:59:26.746 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.909ms
+2024-07-11 21:59:28.288 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 21:59:28.290 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo)'
+2024-07-11 21:59:28.293 +03:00 [INF] Route matched with {action = "GetContractorsOfProject", controller = "Contractors", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContractorsOfProject(System.String) on controller DesignAirDemo.Controllers.ContractorsController (DesignAirDemo).
+2024-07-11 21:59:28.342 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ContractorsId], [t0].[ProjectsId], [t0].[Id], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [c].[ContractorsId], [c].[ProjectsId], [c0].[Id], [c0].[Name], [c0].[TotalCreditBalance], [c0].[TotalDebitBalance]
+    FROM [ContractorProject] AS [c]
+    INNER JOIN [Contractors] AS [c0] ON [c].[ContractorsId] = [c0].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ProjectsId]
+ORDER BY [t].[Id], [t0].[ContractorsId], [t0].[ProjectsId]
+2024-07-11 21:59:28.375 +03:00 [INF] Executing ViewResult, running view GetContractorsOfProject.
+2024-07-11 21:59:28.381 +03:00 [INF] Executed ViewResult - view GetContractorsOfProject executed in 6.3573ms.
+2024-07-11 21:59:28.381 +03:00 [INF] Executed action DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo) in 87.9904ms
+2024-07-11 21:59:28.381 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo)'
+2024-07-11 21:59:28.381 +03:00 [INF] HTTP GET /Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d responded 200 in 91.0525 ms
+2024-07-11 21:59:28.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 93.2696ms
+2024-07-11 21:59:28.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:28.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:28.437 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.7914ms
+2024-07-11 21:59:28.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0692ms
+2024-07-11 21:59:33.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&UserId=8b401fc9-ccb8-4570-a6f6-3aa86828ec69&type=Contractors - null null
+2024-07-11 21:59:33.773 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 21:59:33.773 +03:00 [INF] Route matched with {action = "AddOperation", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOperation(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:59:33.777 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-07-11 21:59:33.782 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Contractors] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 21:59:33.783 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Name], [o].[Sign]
+FROM [OperationTypes] AS [o]
+2024-07-11 21:59:33.784 +03:00 [INF] Executing ViewResult, running view AddOperation.
+2024-07-11 21:59:33.787 +03:00 [INF] Executed ViewResult - view AddOperation executed in 3.0891ms.
+2024-07-11 21:59:33.787 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo) in 13.5814ms
+2024-07-11 21:59:33.787 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 21:59:33.787 +03:00 [INF] HTTP GET /Operations/AddOperation responded 200 in 13.8278 ms
+2024-07-11 21:59:33.787 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&UserId=8b401fc9-ccb8-4570-a6f6-3aa86828ec69&type=Contractors - 200 null text/html; charset=utf-8 17.9058ms
+2024-07-11 21:59:33.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:33.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:33.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9505ms
+2024-07-11 21:59:33.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.7873ms
+2024-07-11 21:59:35.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 21:59:35.393 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo)'
+2024-07-11 21:59:35.393 +03:00 [INF] Route matched with {action = "GetContractorsOfProject", controller = "Contractors", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContractorsOfProject(System.String) on controller DesignAirDemo.Controllers.ContractorsController (DesignAirDemo).
+2024-07-11 21:59:35.395 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ContractorsId], [t0].[ProjectsId], [t0].[Id], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [c].[ContractorsId], [c].[ProjectsId], [c0].[Id], [c0].[Name], [c0].[TotalCreditBalance], [c0].[TotalDebitBalance]
+    FROM [ContractorProject] AS [c]
+    INNER JOIN [Contractors] AS [c0] ON [c].[ContractorsId] = [c0].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ProjectsId]
+ORDER BY [t].[Id], [t0].[ContractorsId], [t0].[ProjectsId]
+2024-07-11 21:59:35.396 +03:00 [INF] Executing ViewResult, running view GetContractorsOfProject.
+2024-07-11 21:59:35.398 +03:00 [INF] Executed ViewResult - view GetContractorsOfProject executed in 1.4957ms.
+2024-07-11 21:59:35.398 +03:00 [INF] Executed action DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo) in 4.2896ms
+2024-07-11 21:59:35.398 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo)'
+2024-07-11 21:59:35.398 +03:00 [INF] HTTP GET /Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d responded 200 in 4.4930 ms
+2024-07-11 21:59:35.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 6.9104ms
+2024-07-11 21:59:35.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:35.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:35.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.2729ms
+2024-07-11 21:59:35.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.709ms
+2024-07-11 21:59:36.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=8b401fc9-ccb8-4570-a6f6-3aa86828ec69&Type=Contractors&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 21:59:36.315 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:59:36.315 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 21:59:36.318 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 21:59:36.319 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Contractors] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 21:59:36.321 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 21:59:36.323 +03:00 [INF] Executed ViewResult - view GetOperations executed in 1.9501ms.
+2024-07-11 21:59:36.323 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 7.6008ms
+2024-07-11 21:59:36.323 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 21:59:36.323 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 7.8892 ms
+2024-07-11 21:59:36.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=8b401fc9-ccb8-4570-a6f6-3aa86828ec69&Type=Contractors&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 10.3355ms
+2024-07-11 21:59:36.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 21:59:36.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 21:59:36.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9608ms
+2024-07-11 21:59:36.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.7705ms
+2024-07-11 22:00:03.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:00:03.096 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo)'
+2024-07-11 22:00:03.096 +03:00 [INF] Route matched with {action = "GetContractorsOfProject", controller = "Contractors", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContractorsOfProject(System.String) on controller DesignAirDemo.Controllers.ContractorsController (DesignAirDemo).
+2024-07-11 22:00:03.099 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ContractorsId], [t0].[ProjectsId], [t0].[Id], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [c].[ContractorsId], [c].[ProjectsId], [c0].[Id], [c0].[Name], [c0].[TotalCreditBalance], [c0].[TotalDebitBalance]
+    FROM [ContractorProject] AS [c]
+    INNER JOIN [Contractors] AS [c0] ON [c].[ContractorsId] = [c0].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ProjectsId]
+ORDER BY [t].[Id], [t0].[ContractorsId], [t0].[ProjectsId]
+2024-07-11 22:00:03.101 +03:00 [INF] Executing ViewResult, running view GetContractorsOfProject.
+2024-07-11 22:00:03.104 +03:00 [INF] Executed ViewResult - view GetContractorsOfProject executed in 3.9798ms.
+2024-07-11 22:00:03.105 +03:00 [INF] Executed action DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo) in 8.9401ms
+2024-07-11 22:00:03.105 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ContractorsController.GetContractorsOfProject (DesignAirDemo)'
+2024-07-11 22:00:03.105 +03:00 [INF] HTTP GET /Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d responded 200 in 9.1488 ms
+2024-07-11 22:00:03.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Contractors/GetContractorsOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 11.6206ms
+2024-07-11 22:00:03.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:03.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:03.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.7313ms
+2024-07-11 22:00:03.166 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.6534ms
+2024-07-11 22:00:04.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 22:00:04.124 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:00:04.124 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:00:04.126 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 22:00:04.127 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:04.129 +03:00 [INF] Executed ViewResult - view All executed in 1.8534ms.
+2024-07-11 22:00:04.129 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 4.9818ms
+2024-07-11 22:00:04.129 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:00:04.129 +03:00 [INF] HTTP GET /Projects/All responded 200 in 5.1715 ms
+2024-07-11 22:00:04.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 6.9065ms
+2024-07-11 22:00:04.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:04.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:04.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.2085ms
+2024-07-11 22:00:04.187 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.9141ms
+2024-07-11 22:00:05.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:00:05.695 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo)'
+2024-07-11 22:00:05.697 +03:00 [INF] Route matched with {action = "GetSuppliersOfProject", controller = "Suppliers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSuppliersOfProject(System.String) on controller DesignAirDemo.Controllers.SuppliersController (DesignAirDemo).
+2024-07-11 22:00:05.715 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ProjectsId], [t0].[SuppliersId], [t0].[Id], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[ProjectsId], [p0].[SuppliersId], [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+    FROM [ProjectSupplier] AS [p0]
+    INNER JOIN [Suppliers] AS [s] ON [p0].[SuppliersId] = [s].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ProjectsId]
+ORDER BY [t].[Id], [t0].[ProjectsId], [t0].[SuppliersId]
+2024-07-11 22:00:05.728 +03:00 [INF] Executing ViewResult, running view GetSuppliersOfProject.
+2024-07-11 22:00:05.735 +03:00 [INF] Executed ViewResult - view GetSuppliersOfProject executed in 7.5495ms.
+2024-07-11 22:00:05.736 +03:00 [INF] Executed action DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo) in 38.0228ms
+2024-07-11 22:00:05.736 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo)'
+2024-07-11 22:00:05.736 +03:00 [INF] HTTP GET /Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d responded 200 in 41.0492 ms
+2024-07-11 22:00:05.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 42.9033ms
+2024-07-11 22:00:05.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:05.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:05.789 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.6022ms
+2024-07-11 22:00:05.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.982ms
+2024-07-11 22:00:08.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&userId=39d385a8-62ff-47aa-abe5-e2bed4737398&type=Suppliers - null null
+2024-07-11 22:00:08.362 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 22:00:08.362 +03:00 [INF] Route matched with {action = "AddOperation", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOperation(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 22:00:08.365 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-07-11 22:00:08.371 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+FROM [Suppliers] AS [s]
+WHERE [s].[Id] = @__p_0
+2024-07-11 22:00:08.372 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Name], [o].[Sign]
+FROM [OperationTypes] AS [o]
+2024-07-11 22:00:08.372 +03:00 [INF] Executing ViewResult, running view AddOperation.
+2024-07-11 22:00:08.375 +03:00 [INF] Executed ViewResult - view AddOperation executed in 2.4434ms.
+2024-07-11 22:00:08.377 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo) in 12.9754ms
+2024-07-11 22:00:08.377 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 22:00:08.378 +03:00 [INF] HTTP GET /Operations/AddOperation responded 200 in 15.3873 ms
+2024-07-11 22:00:08.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&userId=39d385a8-62ff-47aa-abe5-e2bed4737398&type=Suppliers - 200 null text/html; charset=utf-8 17.3557ms
+2024-07-11 22:00:08.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:08.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:08.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.1177ms
+2024-07-11 22:00:08.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.9145ms
+2024-07-11 22:00:09.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:00:09.526 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo)'
+2024-07-11 22:00:09.526 +03:00 [INF] Route matched with {action = "GetSuppliersOfProject", controller = "Suppliers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSuppliersOfProject(System.String) on controller DesignAirDemo.Controllers.SuppliersController (DesignAirDemo).
+2024-07-11 22:00:09.529 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ProjectsId], [t0].[SuppliersId], [t0].[Id], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[ProjectsId], [p0].[SuppliersId], [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+    FROM [ProjectSupplier] AS [p0]
+    INNER JOIN [Suppliers] AS [s] ON [p0].[SuppliersId] = [s].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ProjectsId]
+ORDER BY [t].[Id], [t0].[ProjectsId], [t0].[SuppliersId]
+2024-07-11 22:00:09.529 +03:00 [INF] Executing ViewResult, running view GetSuppliersOfProject.
+2024-07-11 22:00:09.531 +03:00 [INF] Executed ViewResult - view GetSuppliersOfProject executed in 1.6735ms.
+2024-07-11 22:00:09.531 +03:00 [INF] Executed action DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo) in 4.7034ms
+2024-07-11 22:00:09.531 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo)'
+2024-07-11 22:00:09.531 +03:00 [INF] HTTP GET /Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d responded 200 in 5.1072 ms
+2024-07-11 22:00:09.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 8.5569ms
+2024-07-11 22:00:09.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:09.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:09.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.7693ms
+2024-07-11 22:00:09.599 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.7451ms
+2024-07-11 22:00:10.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=39d385a8-62ff-47aa-abe5-e2bed4737398&Type=Suppliers&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:00:10.578 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 22:00:10.578 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 22:00:10.580 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 22:00:10.582 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+FROM [Suppliers] AS [s]
+WHERE [s].[Id] = @__p_0
+2024-07-11 22:00:10.583 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 22:00:10.586 +03:00 [INF] Executed ViewResult - view GetOperations executed in 2.2584ms.
+2024-07-11 22:00:10.586 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 7.6821ms
+2024-07-11 22:00:10.586 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 22:00:10.586 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 7.9068 ms
+2024-07-11 22:00:10.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=39d385a8-62ff-47aa-abe5-e2bed4737398&Type=Suppliers&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 9.7453ms
+2024-07-11 22:00:10.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:10.636 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:10.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9264ms
+2024-07-11 22:00:10.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.3116ms
+2024-07-11 22:00:11.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:00:11.696 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo)'
+2024-07-11 22:00:11.696 +03:00 [INF] Route matched with {action = "GetSuppliersOfProject", controller = "Suppliers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSuppliersOfProject(System.String) on controller DesignAirDemo.Controllers.SuppliersController (DesignAirDemo).
+2024-07-11 22:00:11.698 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ProjectsId], [t0].[SuppliersId], [t0].[Id], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [p0].[ProjectsId], [p0].[SuppliersId], [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+    FROM [ProjectSupplier] AS [p0]
+    INNER JOIN [Suppliers] AS [s] ON [p0].[SuppliersId] = [s].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ProjectsId]
+ORDER BY [t].[Id], [t0].[ProjectsId], [t0].[SuppliersId]
+2024-07-11 22:00:11.699 +03:00 [INF] Executing ViewResult, running view GetSuppliersOfProject.
+2024-07-11 22:00:11.700 +03:00 [INF] Executed ViewResult - view GetSuppliersOfProject executed in 1.3144ms.
+2024-07-11 22:00:11.700 +03:00 [INF] Executed action DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo) in 3.9673ms
+2024-07-11 22:00:11.700 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.SuppliersController.GetSuppliersOfProject (DesignAirDemo)'
+2024-07-11 22:00:11.700 +03:00 [INF] HTTP GET /Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d responded 200 in 4.1462 ms
+2024-07-11 22:00:11.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Suppliers/GetSuppliersOfProject/c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 6.3793ms
+2024-07-11 22:00:11.751 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:11.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:11.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.8779ms
+2024-07-11 22:00:11.763 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.0203ms
+2024-07-11 22:00:12.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 22:00:12.329 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:00:12.329 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:00:12.330 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 22:00:12.330 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:12.331 +03:00 [INF] Executed ViewResult - view All executed in 0.9739ms.
+2024-07-11 22:00:12.332 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 2.9726ms
+2024-07-11 22:00:12.332 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:00:12.332 +03:00 [INF] HTTP GET /Projects/All responded 200 in 3.1440 ms
+2024-07-11 22:00:12.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 5.0412ms
+2024-07-11 22:00:12.375 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:12.386 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:12.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.8875ms
+2024-07-11 22:00:12.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0855ms
+2024-07-11 22:00:13.460 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:00:13.462 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:13.462 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:00:13.464 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:00:13.464 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:00:13.466 +03:00 [INF] Executed ViewResult - view Index executed in 2.1446ms.
+2024-07-11 22:00:13.466 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 4.0755ms
+2024-07-11 22:00:13.466 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:13.466 +03:00 [INF] HTTP GET / responded 200 in 4.2624 ms
+2024-07-11 22:00:13.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 6.3755ms
+2024-07-11 22:00:13.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:13.522 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:13.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.1584ms
+2024-07-11 22:00:13.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.8099ms
+2024-07-11 22:00:15.238 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Clients/All - null null
+2024-07-11 22:00:15.240 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:00:15.245 +03:00 [INF] Route matched with {action = "All", controller = "Clients", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ClientsController (DesignAirDemo).
+2024-07-11 22:00:15.248 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+2024-07-11 22:00:15.250 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:15.257 +03:00 [INF] Executed ViewResult - view All executed in 7.3209ms.
+2024-07-11 22:00:15.257 +03:00 [INF] Executed action DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo) in 12.6114ms
+2024-07-11 22:00:15.257 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:00:15.257 +03:00 [INF] HTTP GET /Clients/All responded 200 in 17.7386 ms
+2024-07-11 22:00:15.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Clients/All - 200 null text/html; charset=utf-8 20.0651ms
+2024-07-11 22:00:15.298 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:15.311 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:15.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.5411ms
+2024-07-11 22:00:15.315 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.8237ms
+2024-07-11 22:00:19.010 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Clients/Add - null null
+2024-07-11 22:00:19.012 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ClientsController.Add (DesignAirDemo)'
+2024-07-11 22:00:19.013 +03:00 [INF] Route matched with {action = "Add", controller = "Clients", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add() on controller DesignAirDemo.Controllers.ClientsController (DesignAirDemo).
+2024-07-11 22:00:19.014 +03:00 [INF] Executing ViewResult, running view Add.
+2024-07-11 22:00:19.023 +03:00 [INF] Executed ViewResult - view Add executed in 9.8883ms.
+2024-07-11 22:00:19.024 +03:00 [INF] Executed action DesignAirDemo.Controllers.ClientsController.Add (DesignAirDemo) in 10.7898ms
+2024-07-11 22:00:19.024 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ClientsController.Add (DesignAirDemo)'
+2024-07-11 22:00:19.024 +03:00 [INF] HTTP GET /Clients/Add responded 200 in 11.7039 ms
+2024-07-11 22:00:19.024 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Clients/Add - 200 null text/html; charset=utf-8 14.2685ms
+2024-07-11 22:00:19.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:19.070 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:19.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.6072ms
+2024-07-11 22:00:19.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0991ms
+2024-07-11 22:00:21.103 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Clients/All - null null
+2024-07-11 22:00:21.106 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:00:21.106 +03:00 [INF] Route matched with {action = "All", controller = "Clients", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ClientsController (DesignAirDemo).
+2024-07-11 22:00:21.108 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+2024-07-11 22:00:21.108 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:21.110 +03:00 [INF] Executed ViewResult - view All executed in 1.3914ms.
+2024-07-11 22:00:21.110 +03:00 [INF] Executed action DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo) in 3.9682ms
+2024-07-11 22:00:21.110 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:00:21.110 +03:00 [INF] HTTP GET /Clients/All responded 200 in 4.1387 ms
+2024-07-11 22:00:21.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Clients/All - 200 null text/html; charset=utf-8 7.0315ms
+2024-07-11 22:00:21.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:21.157 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:21.157 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.637ms
+2024-07-11 22:00:21.165 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.6082ms
+2024-07-11 22:00:21.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:00:21.861 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:21.862 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:00:21.863 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:00:21.863 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:00:21.864 +03:00 [INF] Executed ViewResult - view Index executed in 1.1373ms.
+2024-07-11 22:00:21.865 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 3.1633ms
+2024-07-11 22:00:21.865 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:21.865 +03:00 [INF] HTTP GET / responded 200 in 3.3679 ms
+2024-07-11 22:00:21.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 5.7349ms
+2024-07-11 22:00:21.907 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:21.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:21.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9667ms
+2024-07-11 22:00:21.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.1813ms
+2024-07-11 22:00:22.975 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Contractors/All - null null
+2024-07-11 22:00:22.977 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ContractorsController.All (DesignAirDemo)'
+2024-07-11 22:00:22.979 +03:00 [INF] Route matched with {action = "All", controller = "Contractors", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ContractorsController (DesignAirDemo).
+2024-07-11 22:00:22.983 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Contractors] AS [c]
+2024-07-11 22:00:22.984 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:22.990 +03:00 [INF] Executed ViewResult - view All executed in 6.1859ms.
+2024-07-11 22:00:22.990 +03:00 [INF] Executed action DesignAirDemo.Controllers.ContractorsController.All (DesignAirDemo) in 11.2548ms
+2024-07-11 22:00:22.990 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ContractorsController.All (DesignAirDemo)'
+2024-07-11 22:00:22.990 +03:00 [INF] HTTP GET /Contractors/All responded 200 in 13.4977 ms
+2024-07-11 22:00:22.990 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Contractors/All - 200 null text/html; charset=utf-8 15.7557ms
+2024-07-11 22:00:23.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:23.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:23.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.7519ms
+2024-07-11 22:00:23.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.6795ms
+2024-07-11 22:00:27.163 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/AddToProject/8b401fc9-ccb8-4570-a6f6-3aa86828ec69?type=Contractors - null null
+2024-07-11 22:00:27.164 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.AddToProject (DesignAirDemo)'
+2024-07-11 22:00:27.168 +03:00 [INF] Route matched with {action = "AddToProject", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToProject(System.String, System.String) on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:00:27.171 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Contractors] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 22:00:27.187 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [t0].[ContractorsId], [t0].[ProjectsId], [t0].[Id], [t0].[ClientId], [t0].[Name], [t0].[TotalCreditBalance], [t0].[TotalDebitBalance]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+    FROM [Contractors] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [c0].[ContractorsId], [c0].[ProjectsId], [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [ContractorProject] AS [c0]
+    INNER JOIN [Projects] AS [p] ON [c0].[ProjectsId] = [p].[Id]
+) AS [t0] ON [t].[Id] = [t0].[ContractorsId]
+ORDER BY [t].[Id], [t0].[ContractorsId], [t0].[ProjectsId]
+2024-07-11 22:00:27.188 +03:00 [INF] Executing ViewResult, running view AddToProject.
+2024-07-11 22:00:27.215 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Id] <> N'c4891289-58a8-4ea3-bb40-1478a4635a5d'
+2024-07-11 22:00:27.218 +03:00 [INF] Executed ViewResult - view AddToProject executed in 30.3683ms.
+2024-07-11 22:00:27.218 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.AddToProject (DesignAirDemo) in 50.8422ms
+2024-07-11 22:00:27.219 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.AddToProject (DesignAirDemo)'
+2024-07-11 22:00:27.219 +03:00 [INF] HTTP GET /Projects/AddToProject/8b401fc9-ccb8-4570-a6f6-3aa86828ec69 responded 200 in 54.0747 ms
+2024-07-11 22:00:27.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/AddToProject/8b401fc9-ccb8-4570-a6f6-3aa86828ec69?type=Contractors - 200 null text/html; charset=utf-8 55.9495ms
+2024-07-11 22:00:27.258 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:27.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:27.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9785ms
+2024-07-11 22:00:27.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5876ms
+2024-07-11 22:00:34.782 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Contractors/All - null null
+2024-07-11 22:00:34.784 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ContractorsController.All (DesignAirDemo)'
+2024-07-11 22:00:34.784 +03:00 [INF] Route matched with {action = "All", controller = "Contractors", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ContractorsController (DesignAirDemo).
+2024-07-11 22:00:34.786 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Contractors] AS [c]
+2024-07-11 22:00:34.788 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:34.790 +03:00 [INF] Executed ViewResult - view All executed in 2.4175ms.
+2024-07-11 22:00:34.790 +03:00 [INF] Executed action DesignAirDemo.Controllers.ContractorsController.All (DesignAirDemo) in 5.922ms
+2024-07-11 22:00:34.790 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ContractorsController.All (DesignAirDemo)'
+2024-07-11 22:00:34.790 +03:00 [INF] HTTP GET /Contractors/All responded 200 in 6.0810 ms
+2024-07-11 22:00:34.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Contractors/All - 200 null text/html; charset=utf-8 8.2974ms
+2024-07-11 22:00:34.843 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:34.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:34.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.0308ms
+2024-07-11 22:00:34.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.8991ms
+2024-07-11 22:00:37.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:00:37.059 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:37.059 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:00:37.060 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:00:37.060 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:00:37.062 +03:00 [INF] Executed ViewResult - view Index executed in 1.5026ms.
+2024-07-11 22:00:37.062 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 3.2465ms
+2024-07-11 22:00:37.063 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:37.063 +03:00 [INF] HTTP GET / responded 200 in 3.4649 ms
+2024-07-11 22:00:37.063 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 5.169ms
+2024-07-11 22:00:37.106 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:37.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:37.119 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.0323ms
+2024-07-11 22:00:37.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3985ms
+2024-07-11 22:00:38.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Suppliers/All - null null
+2024-07-11 22:00:38.343 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.SuppliersController.All (DesignAirDemo)'
+2024-07-11 22:00:38.346 +03:00 [INF] Route matched with {action = "All", controller = "Suppliers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.SuppliersController (DesignAirDemo).
+2024-07-11 22:00:38.351 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+FROM [Suppliers] AS [s]
+2024-07-11 22:00:38.352 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:38.357 +03:00 [INF] Executed ViewResult - view All executed in 5.5954ms.
+2024-07-11 22:00:38.357 +03:00 [INF] Executed action DesignAirDemo.Controllers.SuppliersController.All (DesignAirDemo) in 11.7402ms
+2024-07-11 22:00:38.357 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.SuppliersController.All (DesignAirDemo)'
+2024-07-11 22:00:38.357 +03:00 [INF] HTTP GET /Suppliers/All responded 200 in 14.6369 ms
+2024-07-11 22:00:38.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Suppliers/All - 200 null text/html; charset=utf-8 16.2907ms
+2024-07-11 22:00:38.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:38.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:38.400 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9241ms
+2024-07-11 22:00:38.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4074ms
+2024-07-11 22:00:39.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/suppliers/Add - null null
+2024-07-11 22:00:39.614 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.SuppliersController.Add (DesignAirDemo)'
+2024-07-11 22:00:39.615 +03:00 [INF] Route matched with {action = "Add", controller = "Suppliers", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add() on controller DesignAirDemo.Controllers.SuppliersController (DesignAirDemo).
+2024-07-11 22:00:39.615 +03:00 [INF] Executing ViewResult, running view Add.
+2024-07-11 22:00:39.624 +03:00 [INF] Executed ViewResult - view Add executed in 9.5769ms.
+2024-07-11 22:00:39.624 +03:00 [INF] Executed action DesignAirDemo.Controllers.SuppliersController.Add (DesignAirDemo) in 9.8641ms
+2024-07-11 22:00:39.625 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.SuppliersController.Add (DesignAirDemo)'
+2024-07-11 22:00:39.625 +03:00 [INF] HTTP GET /suppliers/Add responded 200 in 10.8334 ms
+2024-07-11 22:00:39.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/suppliers/Add - 200 null text/html; charset=utf-8 12.6324ms
+2024-07-11 22:00:39.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:39.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.5166ms
+2024-07-11 22:00:39.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:39.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.1317ms
+2024-07-11 22:00:40.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Suppliers/All - null null
+2024-07-11 22:00:40.442 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.SuppliersController.All (DesignAirDemo)'
+2024-07-11 22:00:40.442 +03:00 [INF] Route matched with {action = "All", controller = "Suppliers", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.SuppliersController (DesignAirDemo).
+2024-07-11 22:00:40.443 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[TotalCreditBalance], [s].[TotalDebitBalance]
+FROM [Suppliers] AS [s]
+2024-07-11 22:00:40.444 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:40.446 +03:00 [INF] Executed ViewResult - view All executed in 1.8435ms.
+2024-07-11 22:00:40.446 +03:00 [INF] Executed action DesignAirDemo.Controllers.SuppliersController.All (DesignAirDemo) in 3.6829ms
+2024-07-11 22:00:40.446 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.SuppliersController.All (DesignAirDemo)'
+2024-07-11 22:00:40.446 +03:00 [INF] HTTP GET /Suppliers/All responded 200 in 3.8532 ms
+2024-07-11 22:00:40.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Suppliers/All - 200 null text/html; charset=utf-8 5.6021ms
+2024-07-11 22:00:40.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:40.492 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:40.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9126ms
+2024-07-11 22:00:40.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.5024ms
+2024-07-11 22:00:41.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:00:41.298 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:41.298 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:00:41.298 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:00:41.298 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:00:41.300 +03:00 [INF] Executed ViewResult - view Index executed in 1.6769ms.
+2024-07-11 22:00:41.300 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 2.5475ms
+2024-07-11 22:00:41.300 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:00:41.300 +03:00 [INF] HTTP GET / responded 200 in 2.6929 ms
+2024-07-11 22:00:41.300 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 4.4171ms
+2024-07-11 22:00:41.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:41.353 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:41.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.29ms
+2024-07-11 22:00:41.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.587ms
+2024-07-11 22:00:42.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/All - null null
+2024-07-11 22:00:42.067 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 22:00:42.069 +03:00 [INF] Route matched with {action = "All", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 22:00:42.076 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+2024-07-11 22:00:42.085 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:42.091 +03:00 [INF] Executed ViewResult - view All executed in 6.9682ms.
+2024-07-11 22:00:42.091 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo) in 21.884ms
+2024-07-11 22:00:42.091 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 22:00:42.091 +03:00 [INF] HTTP GET /Archive/All responded 200 in 24.1818 ms
+2024-07-11 22:00:42.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/All - 200 null text/html; charset=utf-8 26.3952ms
+2024-07-11 22:00:42.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:42.144 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:42.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.3805ms
+2024-07-11 22:00:42.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3821ms
+2024-07-11 22:00:51.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Download/27c73dc0-5a8f-4e45-a99d-6b29fd6a2b57 - null null
+2024-07-11 22:00:51.304 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 22:00:51.306 +03:00 [INF] Route matched with {action = "Download", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 22:00:51.312 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-07-11 22:00:51.330 +03:00 [INF] Executing FileStreamResult, sending file with download name 'شيك محفظه رقم64201408812197 بنك الامارات دبي الوطني  حق 29/5/2024.png' ...
+2024-07-11 22:00:51.331 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo) in 24.6012ms
+2024-07-11 22:00:51.331 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 22:00:51.331 +03:00 [INF] HTTP GET /Archive/Download/27c73dc0-5a8f-4e45-a99d-6b29fd6a2b57 responded 200 in 27.2292 ms
+2024-07-11 22:00:51.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Download/27c73dc0-5a8f-4e45-a99d-6b29fd6a2b57 - 200 9463 application/octet-stream 29.8178ms
+2024-07-11 22:00:53.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Download/a8679263-5f31-48ce-986f-e7527c50ba19 - null null
+2024-07-11 22:00:53.412 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 22:00:53.412 +03:00 [INF] Route matched with {action = "Download", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 22:00:53.414 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-07-11 22:00:53.435 +03:00 [INF] Executing FileStreamResult, sending file with download name 'gr.pdf' ...
+2024-07-11 22:00:53.436 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo) in 23.9559ms
+2024-07-11 22:00:53.436 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Download (DesignAirDemo)'
+2024-07-11 22:00:53.437 +03:00 [INF] HTTP GET /Archive/Download/a8679263-5f31-48ce-986f-e7527c50ba19 responded 200 in 24.1766 ms
+2024-07-11 22:00:53.437 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Download/a8679263-5f31-48ce-986f-e7527c50ba19 - 200 58211 application/octet-stream 25.9056ms
+2024-07-11 22:00:57.297 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/Add - null null
+2024-07-11 22:00:57.299 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.Add (DesignAirDemo)'
+2024-07-11 22:00:57.300 +03:00 [INF] Route matched with {action = "Add", controller = "Archive", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 22:00:57.301 +03:00 [INF] Executing ViewResult, running view Add.
+2024-07-11 22:00:57.311 +03:00 [INF] Executed ViewResult - view Add executed in 10.1314ms.
+2024-07-11 22:00:57.311 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.Add (DesignAirDemo) in 10.5334ms
+2024-07-11 22:00:57.311 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.Add (DesignAirDemo)'
+2024-07-11 22:00:57.311 +03:00 [INF] HTTP GET /Archive/Add responded 200 in 11.6345 ms
+2024-07-11 22:00:57.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/Add - 200 null text/html; charset=utf-8 13.9024ms
+2024-07-11 22:00:57.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:57.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:57.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.802ms
+2024-07-11 22:00:57.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.1864ms
+2024-07-11 22:00:59.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/All - null null
+2024-07-11 22:00:59.898 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 22:00:59.899 +03:00 [INF] Route matched with {action = "All", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 22:00:59.900 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+2024-07-11 22:00:59.901 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:00:59.903 +03:00 [INF] Executed ViewResult - view All executed in 2.3785ms.
+2024-07-11 22:00:59.903 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo) in 4.4983ms
+2024-07-11 22:00:59.903 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 22:00:59.903 +03:00 [INF] HTTP GET /Archive/All responded 200 in 4.6334 ms
+2024-07-11 22:00:59.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/All - 200 null text/html; charset=utf-8 6.3515ms
+2024-07-11 22:00:59.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:00:59.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:00:59.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.1214ms
+2024-07-11 22:00:59.958 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7178ms
+2024-07-11 22:01:01.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:01:01.496 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:01:01.496 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:01:01.497 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:01:01.497 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:01:01.499 +03:00 [INF] Executed ViewResult - view Index executed in 1.6942ms.
+2024-07-11 22:01:01.499 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 2.8251ms
+2024-07-11 22:01:01.499 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:01:01.499 +03:00 [INF] HTTP GET / responded 200 in 2.9956 ms
+2024-07-11 22:01:01.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 4.7354ms
+2024-07-11 22:01:01.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:01.548 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.763ms
+2024-07-11 22:01:01.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:01.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.2237ms
+2024-07-11 22:01:31.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 22:01:31.939 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:01:31.939 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:01:31.941 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 22:01:31.941 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:01:31.943 +03:00 [INF] Executed ViewResult - view All executed in 1.9662ms.
+2024-07-11 22:01:31.943 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 4.3258ms
+2024-07-11 22:01:31.943 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:01:31.943 +03:00 [INF] HTTP GET /Projects/All responded 200 in 4.5535 ms
+2024-07-11 22:01:31.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 15.3385ms
+2024-07-11 22:01:31.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:31.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.3077ms
+2024-07-11 22:01:32.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:32.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.3111ms
+2024-07-11 22:01:34.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:01:34.397 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:01:34.397 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:01:34.398 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:01:34.399 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:01:34.400 +03:00 [INF] Executed ViewResult - view Index executed in 1.4902ms.
+2024-07-11 22:01:34.400 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 3.4535ms
+2024-07-11 22:01:34.401 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:01:34.401 +03:00 [INF] HTTP GET / responded 200 in 3.7670 ms
+2024-07-11 22:01:34.401 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 5.5847ms
+2024-07-11 22:01:34.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:34.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:34.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.4625ms
+2024-07-11 22:01:34.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.7668ms
+2024-07-11 22:01:37.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Clients/All - null null
+2024-07-11 22:01:37.839 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:01:37.839 +03:00 [INF] Route matched with {action = "All", controller = "Clients", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ClientsController (DesignAirDemo).
+2024-07-11 22:01:37.842 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+2024-07-11 22:01:37.842 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:01:37.844 +03:00 [INF] Executed ViewResult - view All executed in 1.8674ms.
+2024-07-11 22:01:37.844 +03:00 [INF] Executed action DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo) in 4.7207ms
+2024-07-11 22:01:37.844 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:01:37.844 +03:00 [INF] HTTP GET /Clients/All responded 200 in 4.9278 ms
+2024-07-11 22:01:37.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Clients/All - 200 null text/html; charset=utf-8 7.2779ms
+2024-07-11 22:01:37.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:37.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:37.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.2773ms
+2024-07-11 22:01:37.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.1882ms
+2024-07-11 22:01:40.298 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Clients/Add - null null
+2024-07-11 22:01:40.300 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ClientsController.Add (DesignAirDemo)'
+2024-07-11 22:01:40.300 +03:00 [INF] Route matched with {action = "Add", controller = "Clients", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add() on controller DesignAirDemo.Controllers.ClientsController (DesignAirDemo).
+2024-07-11 22:01:40.300 +03:00 [INF] Executing ViewResult, running view Add.
+2024-07-11 22:01:40.303 +03:00 [INF] Executed ViewResult - view Add executed in 2.2028ms.
+2024-07-11 22:01:40.303 +03:00 [INF] Executed action DesignAirDemo.Controllers.ClientsController.Add (DesignAirDemo) in 2.5338ms
+2024-07-11 22:01:40.303 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ClientsController.Add (DesignAirDemo)'
+2024-07-11 22:01:40.303 +03:00 [INF] HTTP GET /Clients/Add responded 200 in 2.8459 ms
+2024-07-11 22:01:40.303 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Clients/Add - 200 null text/html; charset=utf-8 5.7617ms
+2024-07-11 22:01:40.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:40.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:40.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.837ms
+2024-07-11 22:01:40.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.6567ms
+2024-07-11 22:01:42.247 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Clients/All - null null
+2024-07-11 22:01:42.249 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:01:42.249 +03:00 [INF] Route matched with {action = "All", controller = "Clients", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ClientsController (DesignAirDemo).
+2024-07-11 22:01:42.251 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+2024-07-11 22:01:42.252 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:01:42.253 +03:00 [INF] Executed ViewResult - view All executed in 1.1372ms.
+2024-07-11 22:01:42.253 +03:00 [INF] Executed action DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo) in 3.8364ms
+2024-07-11 22:01:42.253 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ClientsController.All (DesignAirDemo)'
+2024-07-11 22:01:42.253 +03:00 [INF] HTTP GET /Clients/All responded 200 in 4.1643 ms
+2024-07-11 22:01:42.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Clients/All - 200 null text/html; charset=utf-8 5.8696ms
+2024-07-11 22:01:42.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:42.306 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:42.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.7467ms
+2024-07-11 22:01:42.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.105ms
+2024-07-11 22:01:43.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:01:43.189 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:01:43.189 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:01:43.191 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:01:43.191 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:01:43.192 +03:00 [INF] Executed ViewResult - view Index executed in 1.5025ms.
+2024-07-11 22:01:43.193 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 3.0481ms
+2024-07-11 22:01:43.193 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:01:43.193 +03:00 [INF] HTTP GET / responded 200 in 3.2568 ms
+2024-07-11 22:01:43.193 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 5.0795ms
+2024-07-11 22:01:43.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:43.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:43.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9342ms
+2024-07-11 22:01:43.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3963ms
+2024-07-11 22:01:45.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 22:01:45.738 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:01:45.738 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:01:45.740 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 22:01:45.740 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:01:45.742 +03:00 [INF] Executed ViewResult - view All executed in 1.2065ms.
+2024-07-11 22:01:45.742 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 4.3397ms
+2024-07-11 22:01:45.742 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:01:45.742 +03:00 [INF] HTTP GET /Projects/All responded 200 in 4.8552 ms
+2024-07-11 22:01:45.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 6.6764ms
+2024-07-11 22:01:45.782 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:45.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:45.789 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.7824ms
+2024-07-11 22:01:45.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.732ms
+2024-07-11 22:01:46.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:01:46.831 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 22:01:46.831 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 22:01:46.833 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 22:01:46.836 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 22:01:46.836 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 22:01:46.838 +03:00 [INF] Executed ViewResult - view GetOperations executed in 1.326ms.
+2024-07-11 22:01:46.838 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 7.0771ms
+2024-07-11 22:01:46.838 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 22:01:46.838 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 7.2505 ms
+2024-07-11 22:01:46.838 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 9.4914ms
+2024-07-11 22:01:46.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:46.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:46.897 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.5151ms
+2024-07-11 22:01:46.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.0232ms
+2024-07-11 22:01:47.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&type=Clients - null null
+2024-07-11 22:01:47.686 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 22:01:47.686 +03:00 [INF] Route matched with {action = "AddOperation", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOperation(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 22:01:47.688 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-07-11 22:01:47.689 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 22:01:47.690 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Name], [o].[Sign]
+FROM [OperationTypes] AS [o]
+2024-07-11 22:01:47.690 +03:00 [INF] Executing ViewResult, running view AddOperation.
+2024-07-11 22:01:47.692 +03:00 [INF] Executed ViewResult - view AddOperation executed in 1.3248ms.
+2024-07-11 22:01:47.692 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo) in 5.5746ms
+2024-07-11 22:01:47.692 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.AddOperation (DesignAirDemo)'
+2024-07-11 22:01:47.692 +03:00 [INF] HTTP GET /Operations/AddOperation responded 200 in 5.7561 ms
+2024-07-11 22:01:47.692 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/AddOperation?ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d&UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&type=Clients - 200 null text/html; charset=utf-8 7.9922ms
+2024-07-11 22:01:47.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:47.747 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:47.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.8494ms
+2024-07-11 22:01:47.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9901ms
+2024-07-11 22:01:49.732 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - null null
+2024-07-11 22:01:49.734 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 22:01:49.734 +03:00 [INF] Route matched with {action = "GetOperations", controller = "Operations", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOperations(DesignAirDemo.Models.DTOModels.AskForOperations) on controller DesignAirDemo.Controllers.OperationsController (DesignAirDemo).
+2024-07-11 22:01:49.736 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_ProjectId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[ClientId], [t].[Name], [t].[TotalCreditBalance], [t].[TotalDebitBalance], [o].[Id], [o].[Amount], [o].[ClientId], [o].[ContractorId], [o].[Date], [o].[Description], [o].[FilePath], [o].[ProjectId], [o].[Sign], [o].[SupplierId], [o].[Type]
+FROM (
+    SELECT TOP(2) [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+    FROM [Projects] AS [p]
+    WHERE [p].[Id] = @__model_ProjectId_0
+) AS [t]
+LEFT JOIN [Operations] AS [o] ON [t].[Id] = [o].[ProjectId]
+ORDER BY [t].[Id]
+2024-07-11 22:01:49.738 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[TotalCreditBalance], [c].[TotalDebitBalance]
+FROM [Clients] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-07-11 22:01:49.738 +03:00 [INF] Executing ViewResult, running view GetOperations.
+2024-07-11 22:01:49.740 +03:00 [INF] Executed ViewResult - view GetOperations executed in 1.2121ms.
+2024-07-11 22:01:49.740 +03:00 [INF] Executed action DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo) in 6.3912ms
+2024-07-11 22:01:49.740 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.OperationsController.GetOperations (DesignAirDemo)'
+2024-07-11 22:01:49.740 +03:00 [INF] HTTP GET /Operations/GetOperations responded 200 in 6.6114 ms
+2024-07-11 22:01:49.740 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Operations/GetOperations?UserId=76b7711a-20a9-4a5d-bb89-15d026f134c1&Type=Clients&ProjectId=c4891289-58a8-4ea3-bb40-1478a4635a5d - 200 null text/html; charset=utf-8 8.3233ms
+2024-07-11 22:01:49.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:49.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:49.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.5651ms
+2024-07-11 22:01:49.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.6887ms
+2024-07-11 22:01:50.797 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/All - null null
+2024-07-11 22:01:50.799 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:01:50.799 +03:00 [INF] Route matched with {action = "All", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:01:50.801 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+2024-07-11 22:01:50.801 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:01:50.804 +03:00 [INF] Executed ViewResult - view All executed in 2.7411ms.
+2024-07-11 22:01:50.804 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo) in 5.559ms
+2024-07-11 22:01:50.804 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.All (DesignAirDemo)'
+2024-07-11 22:01:50.804 +03:00 [INF] HTTP GET /Projects/All responded 200 in 5.7781 ms
+2024-07-11 22:01:50.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/All - 200 null text/html; charset=utf-8 7.4534ms
+2024-07-11 22:01:50.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:01:50.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:01:50.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.9595ms
+2024-07-11 22:01:50.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.9501ms
+2024-07-11 22:01:58.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Projects/Search?Name=g - null null
+2024-07-11 22:01:58.402 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ProjectsController.Search (DesignAirDemo)'
+2024-07-11 22:01:58.402 +03:00 [INF] Route matched with {action = "Search", controller = "Projects", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String) on controller DesignAirDemo.Controllers.ProjectsController (DesignAirDemo).
+2024-07-11 22:01:58.405 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Name_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientId], [p].[Name], [p].[TotalCreditBalance], [p].[TotalDebitBalance]
+FROM [Projects] AS [p]
+WHERE [p].[Name] LIKE @__Name_0_contains ESCAPE N'\'
+2024-07-11 22:01:58.405 +03:00 [INF] Executing PartialViewResult, running view _SearchProjects.
+2024-07-11 22:01:58.405 +03:00 [INF] Executed PartialViewResult - view _SearchProjects executed in 0.2776ms.
+2024-07-11 22:01:58.405 +03:00 [INF] Executed action DesignAirDemo.Controllers.ProjectsController.Search (DesignAirDemo) in 3.4301ms
+2024-07-11 22:01:58.405 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ProjectsController.Search (DesignAirDemo)'
+2024-07-11 22:01:58.405 +03:00 [INF] HTTP GET /Projects/Search responded 200 in 3.5685 ms
+2024-07-11 22:01:58.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Projects/Search?Name=g - 200 null text/html; charset=utf-8 4.0553ms
+2024-07-11 22:02:07.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:02:07.878 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:02:07.878 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:02:07.878 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:02:07.879 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:02:07.881 +03:00 [INF] Executed ViewResult - view Index executed in 1.6803ms.
+2024-07-11 22:02:07.881 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 3.1634ms
+2024-07-11 22:02:07.881 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:02:07.881 +03:00 [INF] HTTP GET / responded 200 in 3.3291 ms
+2024-07-11 22:02:07.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 5.1542ms
+2024-07-11 22:02:07.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:02:07.927 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:02:07.929 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1.1525ms
+2024-07-11 22:02:07.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.7128ms
+2024-07-11 22:02:09.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/Archive/All - null null
+2024-07-11 22:02:09.317 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 22:02:09.317 +03:00 [INF] Route matched with {action = "All", controller = "Archive", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] All() on controller DesignAirDemo.Controllers.ArchiveController (DesignAirDemo).
+2024-07-11 22:02:09.320 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[FilePath]
+FROM [ArchivedItems] AS [a]
+2024-07-11 22:02:09.320 +03:00 [INF] Executing ViewResult, running view All.
+2024-07-11 22:02:09.322 +03:00 [INF] Executed ViewResult - view All executed in 1.4129ms.
+2024-07-11 22:02:09.322 +03:00 [INF] Executed action DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo) in 4.2676ms
+2024-07-11 22:02:09.322 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.ArchiveController.All (DesignAirDemo)'
+2024-07-11 22:02:09.322 +03:00 [INF] HTTP GET /Archive/All responded 200 in 4.4607 ms
+2024-07-11 22:02:09.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/Archive/All - 200 null text/html; charset=utf-8 6.3778ms
+2024-07-11 22:02:09.366 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:02:09.371 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:02:09.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 0.6096ms
+2024-07-11 22:02:09.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0152ms
+2024-07-11 22:02:11.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-11 22:02:11.772 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:02:11.772 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-11 22:02:11.773 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-11 22:02:11.773 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-11 22:02:11.775 +03:00 [INF] Executed ViewResult - view Index executed in 2.0396ms.
+2024-07-11 22:02:11.775 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 2.9726ms
+2024-07-11 22:02:11.777 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-11 22:02:11.777 +03:00 [INF] HTTP GET / responded 200 in 4.2599 ms
+2024-07-11 22:02:11.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 6.1452ms
+2024-07-11 22:02:11.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-11 22:02:11.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-11 22:02:11.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.8293ms
+2024-07-11 22:02:11.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.2122ms

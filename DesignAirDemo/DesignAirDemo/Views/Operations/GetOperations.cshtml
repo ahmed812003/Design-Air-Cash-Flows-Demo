@@ -1,0 +1,98 @@
+﻿@model GetOperationsDto
+
+
+<div class="row pt-4" style="margin-bottom: 2%">
+    <div class="col-6">
+        <h2 class="text-primary">@Model.ProjectName</h2>
+    </div>
+    @if(Model.Type == "Clients")
+    {
+        <div class="col-6 text-end">
+            <a asp-controller="Operations" asp-action="AddOperation" asp-route-ProjectId="@Model.ProjectId" asp-route-UserId="@Model.UserId" asp-route-type="Clients" class="btn btn-sm btn-success">
+                <i class="bi bi-plus"></i> &nbsp; Add Operation
+            </a>
+        </div>
+    }
+    
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Username</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+            <th scope="col">Diffrence</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.UserName</td>
+            <td>@Model.TotalDebitBalance</td>
+            <td>@Model.TotalCreditBalance</td>
+            <td>@Model.Different</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr />
+<br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Description</th>
+            <th scope="col">Type</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Date</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var op in Model.getOperationDto)
+        {
+            <tr>
+                <td>@op.Description</td>
+                <td>@op.Type</td>
+                <td>@op.Amount</td>
+                <td>@op.DateTime.Date</td>
+                <td>
+                    <a asp-controller="Operations" asp-action="DownloadImage" asp-route-id="@op.Id" class="btn btn-sm btn-success">
+                        <i> Download Document </i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Operations" asp-action="Delete" asp-route-UserId="@Model.UserId" asp-route-Type="@Model.Type" asp-route-OperationId="@op.Id" class="btn btn-sm btn-danger">
+                        <i> Delete </i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if(Model.Type == "Clients")
+{
+    <div>
+        <a asp-action="All" asp-controller="Projects" class="btn btn-primary" style="width:150px">
+            back to items
+        </a>
+    </div>
+}
+else if(Model.Type == "Contractors")
+{
+    <div>
+        <a asp-action="GetContractorsOfProject" asp-controller="Contractors" asp-route-id="@Model.ProjectId" class="btn btn-primary" style="width:150px">
+            back to items
+        </a>
+    </div>
+}
+else
+{
+    <div>
+        <a asp-action="GetSuppliersOfProject" asp-controller="Suppliers" asp-route-id="@Model.ProjectId" class="btn btn-primary" style="width:150px">
+            back to items
+        </a>
+    </div>
+}

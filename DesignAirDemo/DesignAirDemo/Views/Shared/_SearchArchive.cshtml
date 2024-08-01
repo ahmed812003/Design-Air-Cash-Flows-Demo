@@ -1,0 +1,29 @@
+﻿@model List<ArchivedItem>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Description</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var archivedItem in Model)
+        {
+            <tr>
+                <td>@archivedItem.Description</td>
+                <td>
+                    <a asp-controller="Archive" asp-action="Download" asp-route-id ="@archivedItem.Id" class="btn btn-sm btn-success">
+                        <i> Download Document </i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Archive" asp-action="Delete" asp-route-id="@archivedItem.Id" class="btn btn-sm btn-danger">
+                        <i> Delete </i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

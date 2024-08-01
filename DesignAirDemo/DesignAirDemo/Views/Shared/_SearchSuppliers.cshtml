@@ -1,0 +1,32 @@
+﻿@model List<GetSupplierDto>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Current Debit Balance</th>
+            <th scope="col">Current Credit Balance</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+            <th scope="col">Add To Project</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var supplier in Model)
+        {
+            <tr>
+                <td>@supplier.Name</td>
+                <td>@supplier.CurrentDebitBalance</td>
+                <td>@supplier.CurrentCreditBalance</td>
+                <td>@supplier.TotalDebitBalance</td>
+                <td>@supplier.TotalCreditBalance</td>
+                <td>
+                    <a asp-controller="Projects" asp-action="AddToProject" asp-route-id="@supplier.Id" asp-route-type="Suppliers" class="btn btn-sm btn-success">
+                        <i> Add To Project </i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

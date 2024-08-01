@@ -1,0 +1,54 @@
+﻿@model List<GetContractorDto>
+
+@{
+    ViewData["Title"] = "Contractors";
+}
+
+
+<div class="row pt-4" style="margin-bottom: 2%">
+    <div class="col-6">
+        <h2 class="text-primary">Project Contractors View</h2>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Current Debit Balance</th>
+            <th scope="col">Current Credit Balance</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+            <th scope="col">Add Operation</th>
+            <th scope="col">All Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contractour in Model)
+        {
+            <tr>
+                <td>@contractour.Name</td>
+                <td>@contractour.CurrentDebitBalance</td>
+                <td>@contractour.CurrentCreditBalance</td>
+                <td>@contractour.TotalDebitBalance</td>
+                <td>@contractour.TotalCreditBalance</td>
+                <td>
+                    <a asp-controller="Operations" asp-action="AddOperation" asp-route-ProjectId ="@contractour.ProjectId" asp-route-UserId="@contractour.Id" asp-route-type="Contractors" class="btn btn-sm btn-success">
+                        <i>Add Operation</i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Operations" asp-action="GetOperations" asp-route-UserId="@contractour.Id" asp-route-Type="Contractors" asp-route-ProjectId="@contractour.ProjectId" class="btn btn-sm btn-success">
+                        <i> All Operation </i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="All" asp-controller="Projects" class="btn btn-primary" style="width:150px">
+    back to items
+    </a>
+</div>

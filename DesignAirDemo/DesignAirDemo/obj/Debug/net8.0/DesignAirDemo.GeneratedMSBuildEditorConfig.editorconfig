@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DesignAirDemo
+build_property.RootNamespace = DesignAirDemo
+build_property.ProjectDir = E:\Software Engineering\Projects\DesignAir Group\DesignAirDemo\DesignAirDemo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Software Engineering\Projects\DesignAir Group\DesignAirDemo\DesignAirDemo
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Archive/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2ZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Archive/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2ZVxBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Clients/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Clients/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Contractors/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RvcnNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Contractors/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RvcnNcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Contractors/GetContractorsOfProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RvcnNcR2V0Q29udHJhY3RvcnNPZlByb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Operations/AddOperation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xBZGRPcGVyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Operations/GetOperations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xHZXRPcGVyYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Projects/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Projects/AddToProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQWRkVG9Qcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Projects/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_SearchArchive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hBcmNoaXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_SearchClients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hDbGllbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_SearchContractors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hDb250cmFjdG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_SearchProjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_SearchSuppliers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hTdXBwbGllcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Suppliers/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Suppliers/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Suppliers/GetSuppliersOfProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEdldFN1cHBsaWVyc09mUHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineering/Projects/DesignAir Group/DesignAirDemo/DesignAirDemo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z9y66iqf5e

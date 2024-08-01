@@ -1,0 +1,60 @@
+2024-07-21 15:06:41.886 +03:00 [INF] User profile is available. Using 'C:\Users\AHMD YASSER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-21 15:06:42.369 +03:00 [INF] Creating key {2240a668-abfe-4594-9259-778efcd67265} with creation date 2024-07-21 12:06:42Z, activation date 2024-07-22 14:33:28Z, and expiration date 2024-10-19 12:06:42Z.
+2024-07-21 15:06:42.376 +03:00 [INF] Writing data to file 'C:\Users\AHMD YASSER\AppData\Local\ASP.NET\DataProtection-Keys\key-2240a668-abfe-4594-9259-778efcd67265.xml'.
+2024-07-21 15:06:42.544 +03:00 [INF] Now listening on: https://localhost:7182
+2024-07-21 15:06:42.544 +03:00 [INF] Now listening on: http://localhost:5143
+2024-07-21 15:06:42.546 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-21 15:06:42.546 +03:00 [INF] Hosting environment: Development
+2024-07-21 15:06:42.546 +03:00 [INF] Content root path: E:\Software Engineering\Projects\DesignAir Group\DesignAirDemo\DesignAirDemo
+2024-07-21 15:06:46.208 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/ - null null
+2024-07-21 15:06:46.344 +03:00 [INF] Executing endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-21 15:06:46.390 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DesignAirDemo.Controllers.HomeController (DesignAirDemo).
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Client'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Contractor'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Operation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalCreditBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:47.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalDebitBalance' on entity type 'Supplier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-21 15:06:50.318 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[Id], [d].[Clients], [d].[Contractors], [d].[Images], [d].[Operations], [d].[Pdfs], [d].[Projects], [d].[Suppliers]
+FROM [DashboardData] AS [d]
+2024-07-21 15:06:50.371 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-21 15:06:50.483 +03:00 [INF] Executed ViewResult - view Index executed in 115.5374ms.
+2024-07-21 15:06:50.484 +03:00 [INF] Executed action DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo) in 4093.9987ms
+2024-07-21 15:06:50.485 +03:00 [INF] Executed endpoint 'DesignAirDemo.Controllers.HomeController.Index (DesignAirDemo)'
+2024-07-21 15:06:50.486 +03:00 [INF] HTTP GET / responded 200 in 4144.6107 ms
+2024-07-21 15:06:50.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/ - 200 null text/html; charset=utf-8 4294.116ms
+2024-07-21 15:06:50.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-07-21 15:06:50.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-07-21 15:06:50.547 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/images/Picture1.jpg - null null
+2024-07-21 15:06:50.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/DesignAirDemo.styles.css?v=xi0w8sC-h-gIC8rMFJe5iFJaQ2aRlbhbphzHRiDrAQs - null null
+2024-07-21 15:06:50.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/lib/jquery/dist/jquery.min.js - null null
+2024-07-21 15:06:50.558 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-07-21 15:06:50.558 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-07-21 15:06:50.558 +03:00 [INF] The file /css/site.css was not modified
+2024-07-21 15:06:50.558 +03:00 [INF] The file /DesignAirDemo.styles.css was not modified
+2024-07-21 15:06:50.558 +03:00 [INF] The file /images/Picture1.jpg was not modified
+2024-07-21 15:06:50.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/lib/jquery/dist/jquery.min.js - 304 null text/javascript 11.5514ms
+2024-07-21 15:06:50.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/DesignAirDemo.styles.css?v=xi0w8sC-h-gIC8rMFJe5iFJaQ2aRlbhbphzHRiDrAQs - 304 null text/css 13.5193ms
+2024-07-21 15:06:50.560 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 14.1083ms
+2024-07-21 15:06:50.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 14.0375ms
+2024-07-21 15:06:50.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/images/Picture1.jpg - 304 null image/jpeg 12.8093ms
+2024-07-21 15:06:50.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-21 15:06:50.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.9154ms
+2024-07-21 15:06:50.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-07-21 15:06:50.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-07-21 15:06:50.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css - null null
+2024-07-21 15:06:50.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/_vs/browserLink - null null
+2024-07-21 15:06:50.605 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-07-21 15:06:50.606 +03:00 [INF] The file /js/site.js was not modified
+2024-07-21 15:06:50.606 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 2.9785ms
+2024-07-21 15:06:50.606 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 3.1463ms
+2024-07-21 15:06:50.609 +03:00 [INF] The file /_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css was not modified
+2024-07-21 15:06:50.610 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css - 304 null text/css 6.6184ms
+2024-07-21 15:06:50.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.326ms
+2024-07-21 15:06:50.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7182/favicon.ico - null null
+2024-07-21 15:06:50.932 +03:00 [INF] The file /favicon.ico was not modified
+2024-07-21 15:06:50.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7182/favicon.ico - 304 null image/x-icon 1.4261ms

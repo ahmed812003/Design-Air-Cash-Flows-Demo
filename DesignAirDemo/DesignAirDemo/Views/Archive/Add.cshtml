@@ -1,0 +1,38 @@
+﻿@model AddToArchiveDto
+
+@{
+    ViewData["Title"] = "Add To Archive";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="border p-3 m-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Add Item</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <br />
+        <div>
+            <input type="file" asp-for="File" accept=".jpg, .jpeg, .png, .pdf" />
+        </div>
+
+        <br />
+        <hr />
+        <button typeof="submit" class="btn btn-primary" style="width:150px">Save</button>
+        <a asp-controller="Archive" asp-action="All" class="btn btn-primary" style="width:150px">
+            back to items
+        </a>
+
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

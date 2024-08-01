@@ -1,0 +1,39 @@
+﻿@model AddToProjectDto
+
+@{
+    ViewData["Title"] = "Add To Project";
+}
+
+<form method="post">
+    <div class="border p-3 m-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Add To New Project</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+
+        <div>
+            <input class="from-control" asp-for="Id" hidden />
+        </div>
+
+        <div>
+            <input class="from-control" asp-for="Type" hidden />
+        </div>
+
+        <div>
+            <label asp-for="ProjectId">Project</label>
+            <select asp-for="ProjectId" class="form-control" asp-items="@ViewBag.ProjectList"></select>
+            <span asp-validation-for="ProjectId" class="text-danger"></span>
+        </div>
+        <br />
+        <hr />
+        <button typeof="submit" class="btn btn-primary" style="width:150px">Save</button>
+        <a asp-action="All" asp-controller="@Model.Type" class="btn btn-primary" style="width:150px">
+            back to items
+        </a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

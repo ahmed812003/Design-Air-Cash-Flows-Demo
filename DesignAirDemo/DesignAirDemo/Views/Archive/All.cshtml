@@ -1,0 +1,95 @@
+﻿@model List<ArchivedItem>
+@{
+    ViewData["Title"] = "Archive";
+}
+
+<div class="row pt-4" style="margin-bottom: 2%">
+    <div class="col-6">
+        <h2 class="text-primary">Archive View</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-controller="Archive" asp-action="Add" class="btn btn-primary">
+            <i class="bi bi-plus"></i> &nbsp; Add New Item
+        </a>
+    </div>
+</div>
+
+<hr />
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <input type="text" class="form-control" id="searchTerm" placeholder="Search for item..." />
+        </div>
+        <div class="col-md-2">
+            <button id="searchButton" class="btn btn-primary w-100">Search</button>
+        </div>
+        <div class="col-md-2">
+            <button id="clear" class="btn btn-secondary btn-danger w-100">Clear</button>
+        </div>
+    </div>
+    <br />
+    <div id="results" class="mt-3"></div>
+    <br />
+</div>
+
+<hr />
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Description</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var archivedItem in Model)
+        {
+            <tr>
+                <td>@archivedItem.Description</td>
+                <td>
+                    <a asp-controller="Archive" asp-action="Download" asp-route-id="@archivedItem.Id" class="btn btn-sm btn-success">
+                        <i> Download Document </i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Archive" asp-action="Delete" asp-route-id="@archivedItem.Id" class="btn btn-sm btn-danger">
+                        <i> Delete </i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<br />
+<br />
+<a asp-action="Index" asp-controller="Home" class="btn btn-primary" style="width:150px">
+    back to Home
+</a>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#searchButton').click(function () {
+                var searchTerm = $('#searchTerm').val();
+                $.ajax({
+                    url: '@Url.Action("Search", "Archive")',
+                    type: 'GET',
+                    data: { Name: searchTerm },
+                    success: function (data) {
+                        document.getElementById("results").innerHTML = data;
+                    },
+                });
+            });
+        });
+        $('#clear').click(function () {
+            document.getElementById("results").innerHTML = "";
+            $('#searchTerm').val("")
+        });
+    </script>
+}

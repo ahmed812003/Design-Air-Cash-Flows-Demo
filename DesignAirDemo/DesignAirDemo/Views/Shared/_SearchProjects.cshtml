@@ -1,0 +1,45 @@
+﻿@model List<GetProjectDto>
+
+<table class="table table-striped" id="tblProjects">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Current Debit Balance</th>
+            <th scope="col">Current Credit Balance</th>
+            <th scope="col">Total Debit Balance</th>
+            <th scope="col">Total Credit Balance</th>
+            <th scope="col">Client</th>
+            <th scope="col">Contractors</th>
+            <th scope="col">Suppliers</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var project in Model)
+        {
+            <tr>
+                <td>@project.Name</td>
+                <td>@project.CurrentDebitBalance</td>
+                <td>@project.CurrentCreditBalance</td>
+                <td>@project.TotalDebitBalance</td>
+                <td>@project.TotalCreditBalance</td>
+                <td>
+                    <a asp-controller="Operations" asp-action="GetOperations" asp-route-UserId="@project.ClientId" asp-route-Type="Clients" asp-route-ProjectId="@project.Id" class="btn btn-sm btn-success">
+                        <i> Client </i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Contractors" asp-action="GetContractorsOfProject" asp-route-id="@project.Id" class="btn btn-sm btn-success">
+                        <i> Contractors </i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Suppliers" asp-action="GetSuppliersOfProject" asp-route-id="@project.Id" class="btn btn-sm btn-success">
+                        <i> Suppliers </i>
+                    </a>
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
